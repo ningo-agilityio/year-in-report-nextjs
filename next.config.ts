@@ -8,7 +8,7 @@ const nextConfig: NextConfig = {
   serverExternalPackages: ['@remotion/renderer'],
   outputFileTracingRoot: path.join(__dirname),
   outputFileTracingIncludes: {
-    '/api/renderers': ['./node_modules/.remotion'],
+    '/api/renderers': ['/var/task/node_modules/.remotion'],
   },
 };
 
